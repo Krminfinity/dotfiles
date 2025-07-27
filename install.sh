@@ -21,7 +21,7 @@ nvm install --lts
 # 2. Gemini CLI をインストール
 if ! command -v gemini &> /dev/null; then
   echo "Installing Gemini CLI..."
-  npm install -g @google/generative-ai/cli
+  npm install -g @google/gemini-cli
 else
   echo "Gemini CLI is already installed."
 fi
